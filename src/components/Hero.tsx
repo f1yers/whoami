@@ -30,7 +30,23 @@ export default function Hero() {
           />
           <span className="text-sm">LinkedIn</span>
         </a>
-      </div>      
+
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://github.com/f1yers/whoami"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/github.svg"
+            alt="Github icon"
+            width={24}
+            height={24}
+          />
+          <span className="text-sm">Github</span>
+        </a>
+      </div>
     </header>
   );
 }

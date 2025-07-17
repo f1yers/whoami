@@ -13,9 +13,10 @@ export default function Resume() {
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 list-disc list-inside text-sm">
           <li>AWS</li>
           <li>Kubernetes</li>
-          <li>CI/CD</li>
+          <li>Terraform, Atmos</li>
           <li>Python, Groovy</li>
           <li>Ansible, Chef</li>
+          <li>CI/CD</li>
           <li>Observability</li>
         </ul>
       </section>
