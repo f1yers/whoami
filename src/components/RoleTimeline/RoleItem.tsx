@@ -21,7 +21,7 @@ export default function RoleItem({
 
   useEffect(() => {
     // Run this block of code as a side effect after React renders the component
-    const timeout = setTimeout(() => setShouldBounce(false), 600);
+    const timeout = setTimeout(() => setShouldBounce(false), 2000);
     return () => clearTimeout(timeout);
   }, []);
 
