@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
-    <footer className="mt-10 text-center text-xs text-gray-500">
+    <footer className="text-center text-xs text-gray-500">
       <p className="font-mono text-xs text-gray-400">
         Last updated July 2025 — Powered by Next.js + Tailwind
       </p>

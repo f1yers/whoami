@@ -37,13 +37,15 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/github.svg"
-            alt="Github icon"
-            width={24}
-            height={24}
-          />
+          <div className="bg-[#f0f0f0] rounded">
+            <Image
+              aria-hidden
+              src="/github_inverted.svg"
+              alt="Github icon"
+              width={24}
+              height={24}
+            />
+          </div>
           <span className="text-sm">Github</span>
         </a>
       </div>
