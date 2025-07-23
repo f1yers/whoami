@@ -18,7 +18,7 @@ export default function Resume() {
             className="mt-1"
           />
           <p className="pt-5 text-sm leading-relaxed">
-            I'm an AWS Certified DevOps Engineer with a decade of hands-on experience, specializing in scalable, resilient, and cost-effective infrastructure built with Kubernetes, Terraform, and AWS.  I've architected and evolved internal platforms that empower developers, standardize delivery, and turn infrastructure into a product teams can trust.
+            {"I'm an AWS Certified DevOps Engineer with a decade of hands-on experience, specializing in scalable, resilient, and cost-effective infrastructure built with Kubernetes, Terraform, and AWS.  I've architected and evolved internal platforms that empower developers, standardize delivery, and turn infrastructure into a product teams can trust."}
           </p>
         </div>
       </section>

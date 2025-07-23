@@ -20,7 +20,6 @@ export default function RoleTimeline() {
       {experiences.map((role, idx) => (
         <RoleItem
           key={idx}
-          index={idx}
           isOpen={openIndexes.includes(idx)}
           onToggle={() => {
             setOpenIndexes(prev => 

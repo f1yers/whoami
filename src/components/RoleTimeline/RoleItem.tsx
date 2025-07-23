@@ -3,7 +3,6 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Experience } from "@/types/experience";
 
 type Props = Experience & {
-  index: number;
   isOpen: boolean;
   onToggle: () => void;
 } & Experience;
@@ -14,8 +13,7 @@ export default function RoleItem({
   date,
   bullets,
   isOpen,
-  onToggle,
-  index: _index
+  onToggle
 }: Props) {
 
   // [state, updater]
