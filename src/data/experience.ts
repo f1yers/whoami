@@ -7,7 +7,7 @@ export const experiences: Experience[] = [
     date: "2024 - Present (Remote)",
     bullets: [
       "Engineered reusable Terraform modules for global AWS infrastructure deployments",
-      "Migrated K8s clusters to EKS to streamline control plane management, executing a planned blue/green cutover with controlled downtime for DB transitions",
+      "Migrated K8s clusters to EKS to streamline control plane management",
       "Executed annual Disaster Recovery procedures to meet SOC 2 audit requirements and validate infrastructure resilience",
       "Reduced AWS costs by $30K/year by implementing a ScaleToZero solution",
       // "Migrated legacy Jenkins pipelines to GitOps-powered ArgoCD", WIP :)
