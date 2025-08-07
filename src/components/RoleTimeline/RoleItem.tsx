@@ -21,7 +21,7 @@ export default function RoleItem({
 
   useEffect(() => {
     // Run this block of code as a side effect after React renders the component
-    const timeout = setTimeout(() => setShouldBounce(false), 2000);
+    const timeout = setTimeout(() => setShouldBounce(false), 3000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -32,7 +32,7 @@ export default function RoleItem({
         className="flex items-center gap-2 w-full hover:text-accent transition"
       >
         <ChevronRightIcon
-          className={`text-left w-5 h-5 transition-transform duration-300 ease-in-out mr-2 
+          className={`text-left w-5 h-5 transition-transform ease-in-out mr-2
             ${isOpen ? "rotate-90" : ""}
             ${shouldBounce ? "animate-bounce" : ""}
           `}
@@ -47,7 +47,7 @@ export default function RoleItem({
       {isOpen && (
         <div className="pl-8 pt-2">
           <div
-            className={`pt-2 pb-4 rounded-lg shadow-inner transition-all duration-300 ${
+            className={`pt-2 pb-4 rounded-lg shadow-inner transition-all ${
               isOpen ? "bg-gray-900/30" : "bg-transparent"
             }`}
           >
