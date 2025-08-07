@@ -20,10 +20,10 @@ export default function Resume() {
               alt="AWS DevOps Badge"
               width={102}
               height={102}
-              className="float-left mr-2 relative"
+              className="float-left mt-1 mr-4 relative"
             />
           </a>
-          <p className="text-sm leading-relaxed">
+          <p className="text-sm leading-relaxed pt-5">
             {"I'm an AWS Certified DevOps Engineer with a decade of hands-on experience, specializing in scalable, resilient, and cost-effective infrastructure built with Kubernetes, Terraform, and AWS.  I've architected and evolved internal platforms that empower developers, standardize delivery, and turn infrastructure into a product teams can trust."}
           </p>
         </div>
